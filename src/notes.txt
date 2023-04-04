@@ -10,6 +10,6 @@ Make the FAQ's page
 //installed bootstrap
 
 
-how many components do i want to add? for how many pages? I need 4 pages, right now, Create a component for each page? or create files with components, related to each one page?
+how many components do i want to add? for how many pages? I need 4 pages, right now, Create a component for each page? or create files with components, however many components, I like? related to each one page?
 
 will start with Tavern Board and move my way down
