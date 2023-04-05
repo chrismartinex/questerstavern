@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.navbarBg{
+  background-color: #f0f0f0;
+}
+
+@font-face {
+  font-family: 'Double';
+  src: url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=IM+Fell+Double+Pica+SC&display=swap');
+}
+
+@font-face {
+  font-family: 'DW';
+  src: url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=IM+Fell+Double+Pica+SC&display=swap');
+}
+
+.doubleFont{
+font-family: 'Double';
+}
+
+.navText{
+  margin-top:30%;
+  color: rgb(52, 69, 52);
+  font-size: larger;
+}
+
+.navMargin{
+  margin-right: -50px;
+}
