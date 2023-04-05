@@ -8,6 +8,13 @@ Make the FAQ's page
 3.Campaign Display
 4.Tavern Board Page
 //installed bootstrap
+//install fonts 
+IM FELL Double Pica SC
+Hind Guntur
+background color 4A423F
+
+//grab all the correct photos to include on pages
+//figure out the Nav bar and make sure that bootstrap is really working 
 
 
 how many components do i want to add? for how many pages? I need 4 pages, right now, Create a component for each page? or create files with components, however many components, I like? related to each one page?

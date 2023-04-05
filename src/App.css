@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+.BackgroundColor{
+  color: #4A423F;
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+
+}
+
+/* font-family: 'Heebo', sans-serif;
+font-family: 'IM Fell Double Pica SC', serif; 
+font-family: 'Heebo', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Hind Guntur', sans-serif;
+font-family: 'IM Fell DW Pica', serif; */
+
+
+.title-container {
+  width: 1440px;
+  height: 116px;
+  overflow: hidden;
+  
+}
+.image-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(40%);
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.text {
+  font-family: 'IM Fell Double Pica SC', serif; 
+  font-size: 55px;
+  font-weight: bold;
+  color: #D9D9D9;
+  text-align: left;
+    /* text-indent: 200px; */
+}
+.button {
+  font-family: 'Heebo', sans-serif;
+  margin-right: 30px;
+  filter: contrast(37%);
+  background-color: #E0F4A6;
+  border: 2px solid #1E1E1E;
+  color: #D6BA73;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
