@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
+import Landing from './components/Land/Landing';
 
 function App() {
   const logo = require('./Assets/logo.jpg');
@@ -20,7 +21,7 @@ return(
           <Col className='navMargin'>
             <p className='doubleFont navText'>FAQs</p>
           </Col>
-          <Col>
+          <Col className='navMargin'>
             <p className='doubleFont navText'>D&D Website</p>
           </Col>
           {
@@ -37,6 +38,7 @@ return(
           }
         </Row>
       </Container>
+      <Landing/>
     </div>
 );
 }
