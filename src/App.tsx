@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 
 function App() {
-  const logo = require('./Assets/logo.png');
+  const logo = require('./Assets/logo.jpg');
   const [loggedIn, setLoggedIn] = useState('')
   const props = '';
 return(
